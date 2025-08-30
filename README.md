@@ -78,9 +78,9 @@ if (navigator.geolocation) {
 
 2. Sends a GET request to the REST API.
 
-3. Parses the JSON response using JSON_TABLE.
+3. Parses the JSON response and set P6_ADDRESS item.
 
-Inserts the parsed data into the api_data table.
+4. Inserts the parsed data into the user_location_data table.
 
 ## PL/SQL Code to show Login User Address and Insert into table
 
@@ -136,20 +136,19 @@ END;
 
 - Create the location_data table in your Oracle database.
 
-- Set up the necessary APEX items to capture and store the latitude and longitude.
+- Set up the necessary APEX items to capture and store the latitude, longitude and Address.
   
 1. Create the APEX Page:
 
-- Add two hidden items for latitude and longitude.
+- Add two hidden items for latitude, longitude and Address.
 
 - Add JavaScript to capture location using the HTML5 Geolocation API.
 
 - Add a button to submit the location to the database.
-3. Display the Location on a Map:
+  
+3. Display the Location to Address Item and Insert Data to Oracle Table.
 
-- Use Google Maps or Leaflet to visualize the captured location on the map.
-
-- Make sure to update the map in real-time if necessary.
+- Display Address and Insert Data to Oracle Table.
 
 4. Deploy:
 
