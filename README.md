@@ -43,7 +43,7 @@ CREATE TABLE user_location_data (
 ## APEX Page Setup
 1. Create APEX Items for Latitude,  Longitude and Address
 
-Create two hidden and One Textarea  items in your APEX page to store the latitude (P1_LATITUDE), longitude (P1_LONGITUDE) and Textarea (P1_ADDRESS)
+Create two hidden and One Textarea  items in your APEX page to store the latitude (P6_LATITUDE), longitude (P6_LONGITUDE) and Textarea (P6_ADDRESS)
 
 Optionally, create a Text Area or Display Only Items to show the Address againest captured latitude and longitude to the user.
 
