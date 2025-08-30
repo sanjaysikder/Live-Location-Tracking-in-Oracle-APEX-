@@ -13,7 +13,7 @@ The application uses:
 
 - Capture the user's real-time **latitude** and **longitude**.
 - Store the captured location in the Oracle APEX database.
-- Display the live location on an interactive map.
+- Display the live location on an interactive Address / map.
 - Update location in real-time (optional).
   
 ## Prerequisites
